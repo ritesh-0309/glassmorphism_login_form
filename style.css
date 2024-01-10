@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(2391_fubr_210723.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px white;
+}
+
+.container .wrapper{
+    width: 100%;
+    color: white;
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.wrapper .inputs{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 8% 10%;
+    justify-content: space-between;
+}
+
+.inputs input{
+    width: 90%;
+    padding-left: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: white;
+}
+
+.inputs label{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remfor{
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+
+.remfor .forget a{
+    color: white;
+    text-decoration: none;
+}
+
+.forget a:hover{
+    color: red;
+}
+
+button{
+    width: 80%;
+    height: 6vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #194388;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 7% 10%;
+}
+
+button:hover{
+    scale: 0.95;
+}
+
+p{
+    margin: 20px 0;
+    text-align: center;
+}
+
+p span{
+    font-size: 1.2rem;
+}
+
+.social-links{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links div i{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+
+.social-links .google i{
+    background-color: red;
+    box-shadow: 0 0 50px red;
+    color: white;
+}
+
+.google i:hover{
+    box-shadow:  0 0 20px red;
+    color: red;
+    background-color: transparent;
+}
+
+.social-links .twitter i{
+    background-color: black;
+    box-shadow: 0 0 50px black;
+    color: white;
+}
+
+.twitter i:hover{
+    box-shadow:  0 0 20px black;
+    color: black;
+    background-color: transparent;
+}
+
+.social-links .facebook i{
+    background-color: #0866ff;
+    box-shadow: 0 0 50px #0866ff;
+    color: white;
+}
+
+.facebook i:hover{
+    box-shadow:  0 0 20px #0866ff;
+    color: #0866ff;
+    background-color: transparent;
+}
